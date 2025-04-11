@@ -1,0 +1,109 @@
+.wishlist-container {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .wishlist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#7e57c2; /* Deep purple */;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: rgb(32, 21, 21);
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .cart-icon {
+    position: relative;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .cart-badge {
+    background-color: rgb(182, 172, 172);
+    color: rgb(17, 14, 14);
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+  }
+  
+  .wishlist-info {
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  .wishlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .wishlist-card {
+    border: 1px solid #402ea7;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color:white(227, 217, 217);
+  }
+  
+  .wishlist-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-tag {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .product-name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .price {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .discount {
+    color: rgb(103, 11, 11);
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .unavailable {
+    color: rgb(156, 47, 47);
+    font-weight: bold;
+  }
+  
+  .add-to-cart {
+    background-color: rgb(63, 63, 91);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  

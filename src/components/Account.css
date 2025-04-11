@@ -1,0 +1,41 @@
+.account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: #f5f5f5;
+  }
+  
+  .account-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 400px;
+  }
+  
+  .account-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .account-box p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .account-box button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #0047ab;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .account-box button:hover {
+    background-color: #003b92;
+  }
+  

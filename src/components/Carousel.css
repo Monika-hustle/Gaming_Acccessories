@@ -1,0 +1,24 @@
+.carousel-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-items {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    overflow-x: auto; /* Scrollable for smaller screens */
+    padding: 10px;
+}
+
+.carousel-items img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor:pointer;
+}
+
+.carousel-items img:hover {
+    transform: scale(1.05);
+}

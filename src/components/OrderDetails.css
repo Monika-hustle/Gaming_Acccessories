@@ -1,0 +1,185 @@
+/* Overall container */
+.order-details-container {
+    padding: 15px;
+    background-color: #f9f6fc;
+    min-height: 100vh;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #9d84c7, #512da8);
+    padding: 5px 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .back-btn,
+  .help-btn {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .back-btn:hover,
+  .help-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Order Info */
+  .order-info {
+    background: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-summary {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .product-image {
+    width: 20px; /* Increased width */
+    height: 10px; /* Increased height */
+    border-radius: 10px;
+    border: 2px solid #7e57c2;
+    object-fit: cover; /* Ensures image maintains aspect ratio and fills the box */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better appearance */
+}
+
+
+  
+  .return-policy {
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Order Status */
+  .order-status {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .status-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .status-line {
+    flex-grow: 1;
+    height: 4px;
+    background: #ddd;
+    transition: background 0.3s;
+  }
+  
+  .status-circle {
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    border-radius: 50%;
+    transition: background 0.3s;
+  }
+  
+  .status-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .active {
+    color: #7c5dba;
+    font-weight: bold;
+  }
+  
+  .status-line.active {
+    background: #947ac7;
+  }
+  
+  .status-circle.active {
+    background: #9178c3;
+    box-shadow: 0px 0px 10px rgba(94, 53, 177, 0.7);
+  }
+  
+  /* Delivery Address */
+  .delivery-address {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .address-warning {
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Payment Info */
+  .payment-info {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .savings {
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .view-bill {
+    background: none;
+    color: #5e35b1;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .view-bill:hover {
+    color: #7e66df;
+  }
+  
+  /* Cash on Delivery Section */
+  .cod-section {
+    background: #f5f5f5;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

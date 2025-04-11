@@ -1,0 +1,56 @@
+/* Ensure full height layout */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Main container to push footer down */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Footer stays at the bottom */
+footer {
+  background: rgba(18, 3, 62, 0.8); /* Slightly transparent dark blue */
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: auto; /* Pushes the footer to the bottom */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Footer Image */
+.footer img {
+  width: 60px;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+/* Footer Text */
+.footer-text {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+  footer {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer img {
+      margin-bottom: 10px;
+  }
+}
